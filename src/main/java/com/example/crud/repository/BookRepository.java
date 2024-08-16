@@ -9,4 +9,6 @@ import java.util.Optional;
 @Repository
 public interface BookRepository extends MongoRepository<BookEntity, Long> {
     Optional<BookEntity> findById(String id);
+
+    Optional<BookEntity> deleteById(String id);
 }
