@@ -43,7 +43,7 @@ public class BookService {
 
         bookEntity.setName(bookEntity.getName());
         bookEntity.setAuthor(bookEntity.getAuthor());
-        bookEntity.setGender(bookEntity.getGender());
+        bookEntity.setCategory(bookEntity.getCategory());
 
         bookRepository.save(bookEntity);
         return "Dados atualizados com sucesso";

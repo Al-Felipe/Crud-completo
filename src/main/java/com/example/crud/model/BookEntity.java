@@ -14,7 +14,7 @@ public class BookEntity {
     @NotBlank
     private String author;
     @NotBlank
-    private String gender;
+    private String category;
 
     public String getId() {
         return id;
@@ -40,11 +40,11 @@ public class BookEntity {
         this.author = author;
     }
 
-    public String getGender() {
-        return gender;
+    public String getCategory() {
+        return category;
     }
 
-    public void setGender(String gender) {
-        this.gender = gender;
+    public void setCategory(String category) {
+        this.category = category;
     }
 }
