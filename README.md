@@ -8,7 +8,7 @@ Endpoints que vão estar acessiveis na porta [http://localhost:8080]().
 ## Endpoints
 
 
-GET /books - Retorna informações do livro
+GET /books - Retorna informações de todos os livros
 ```java
 [
 	{
